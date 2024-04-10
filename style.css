@@ -7,9 +7,7 @@ body{
     font-family:'Noto Sans',sans-serif;
 
 }
-body * {
-    box-sizing: border-box;
-}
+
 .main-login{
     width: 100vw;
     height: 100vh;
@@ -127,7 +125,10 @@ body * {
     .left-login > h1{
         font-weight: 800;
         font-size: 14pt;
-        text-transform: uppercase;    
+        text-transform: uppercase;
+    
+      
+    
     }
     .left-login{
         width: 100%;
@@ -137,6 +138,7 @@ body * {
     .right-login{
         width: 100%;
         height: auto;
+        box-sizing: border-box;
         
     }
     .left-login-img{
@@ -144,9 +146,9 @@ body * {
     }
 
     .card-login{
-        width: 90%;
+        width: 85%;
         margin: auto;
-        justify-content: center;
+        box-sizing: border-box;
     }
 
 }
